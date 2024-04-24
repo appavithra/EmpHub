@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Rubik+Gemstones&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* css for logo */
+.logo{
+    display: flex;
+    margin: 10px 0 0 25px;
+}
+
+.logo #l1{
+  font-size: 30px;
+  font-family: "Rubik Gemstones", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #0B5345;
+}
+
+.logo #l2{
+    font-size: 25px;
+    color:#D35400;
+}
+
+
+/* css for navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(253, 235, 208);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+    
+}
+
+nav ul li{
+    margin: 18px ;
+    /* background-color:#D5DBDB ;
+    border-radius: 30px; */
+}
+
+ul a{
+    text-decoration: none;
+    /* background-color: blue; */
+    margin-right: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+ul a:hover{
+    background-color: #CCD1D1;
+}
+
+ul span{
+    padding: 10px;
+}
+
+
+/* css for home */
+
+/* .mainContainer {
+    height: 100vh;
+} */
+
+.innerHomeContainer{
+    background-image: url("https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?cs=srgb&dl=pexels-ella-olsson-1640774.jpg&fm=jpg");
+    height: 90vh;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.innerHomeContainer h1{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    font-size: 80px;
+    color: orangered  ;
+    text-shadow: 2px 2px 4px #2E4053 ;
+    
+}
+
+.innerHomeContainer .mainContent{
+    margin-top: 120px;
+    
+}
+
+.innerHomeContainer h2{
+    text-align: center;
+    margin-top: 50px;
+    background: linear-gradient(rgb(23, 32, 42), #239B56);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+/* css for menu */
+
+.menuContainer{
+    background-image: url("https://img.freepik.com/free-photo/wooden-planks-with-blurred-restaurant-background_1253-56.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.menuContainer h1{
+    text-align: center;
+    color: black;
+}
+
+.menuContainer .innerMenu{
+    background-color: rgba(253, 254, 254,0.3);
+    height: 60%;
+    width: 90%;
+    margin-left: 70px;
+    display: flex;
+   
+}
+.innerMenu .menu1{
+    background-color: #FBFCFC;
+    height: 356px;
+    width: 300px;
+    margin: 10px;
+}
+
+.innerMenu .menu1 .menu{
+    width: 170px;
+    height: 170px;
+    background-color: #239B56;
+    border-radius: 50%;
+    margin: 30px 0 0 50px;
+}
+.innerMenu .menu1 #one{
+    background-image: url("https://media.istockphoto.com/id/1333127665/photo/chicken-biryani-spicy-indian-malabar-biryani-hyderabadi-biryani-dum-biriyani-pulao-golden.jpg?b=1&s=612x612&w=0&k=20&c=VHIOPgQU2Hrxjeo_GNR-GX8ba3Embdxbz7gkvqOHAjg=");
+    background-position: center;
+    background-size: cover;
+}
+.innerMenu .menu1 #two{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaE5QLHbGe_rSSJS2GF9mkA3GL1J4GpdgrDZXtqMxjkeeCcWc9EDn4Pr8_YD7jYf43hDA&usqp=CAU");
+    background-position: center;
+    background-size: cover;
+}
+.innerMenu .menu1 #three{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsB16dmiYxPAISsqsXxFln0TONu8IznlGDVQ&usqp=CAU");
+    background-position: center;
+    background-size: cover;
+}
+.innerMenu .menu1 #four{
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/0f/2a/28/6d/south-indian-non-veg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.innerMenu .menu1 h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menuContainer #buttonCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuContainer button{
+    padding: 8px 12px 6px 8px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: none;
+    background-color: #48C9B0 ;
+    display: flex;
+    
+}
+
+
+/* css for cheff */
+
+.chefContainer{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/843/996/883/food-chef-cook-wallpaper-preview.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.chefContainer span{
+    text-align: center;
+    padding-top: 30px;
+    color: wheat;
+    font-size: 40px;
+
+}
+
+.chefContainer button{
+    background-color:  rgba(253, 254, 254,0.3);
+    height: 30px;
+    padding: 0 10px;
+    margin: 40px 70px 30px 30px;
+    border: 1px solid #FBFCFC;
+    border-radius: 18px;
+    font-size: 15px;
+    color: white;
+}
+
+/* css for contacts */
+
+.ContactMain{
+    height: 100vh;
+    background-image: linear-gradient(to bottom right,#E5E7E9 ,#ABEBC6,#F2F3F4 );
+    display: flex;
+}
+
+.ContactMain .contactleft{
+    flex: 1;
+    height: 80vh;
+    background-image: url("https://images.pexels.com/photos/2403391/pexels-photo-2403391.jpeg?auto=compress&cs=tinysrgb&w=400");
+    margin: 70px 0 0 110px;
+    background-position: center;
+    background-size: cover;
+}
+
+.contactleft h2{
+    /* margin-top: 80px ; */
+    background-color: rgba(253, 254, 254,0.3);
+    font-size: 30px;
+    text-align: center;
+    padding: 4px 0;
+    margin: 80px 90px 0 90px;
+
+}
+
+.ContactMain .contactRight{
+    flex: 1;
+    height: 80vh;
+    background-color: rgba(253, 254, 254,0.3);
+    margin: 70px 120px 0 0 ;
+    
+}
+
+.contactRight .details{
+    margin: 100px 0 0 130px;
+}
+
+.contactRight .details .mail , .office,.phone{
+    margin: 30px;
+}
+
+.contactRight .details div span{
+    font-size: 25px;
+    
+}
+
+.contactRight .details div #cont{
+    margin: 20px;
+    color: #2E4053;
+}
+
+
+/* css for events */
+
+.eventMain{
+    background-image: linear-gradient(to bottom right,#CD6155 ,#7B241C,#641E16,#641E16,#641E16,#7B241C,#CD6155);
+    height: 100vh;
+}
+
+.eventMain h1{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.eventInner{
+    background-color: rgba(253, 254, 254,0.1);
+    height: 82vh;
+    width: 70%;
+    margin-left: 190px;
+    box-shadow: 2px 2px 4px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.eventInner .top ,.bottom{
+    background-color:rgba(46, 64, 83,0.3);
+    height: 40vh;
+   
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.eventInner .cont,.img{
+    /* background-color: #2E4053; */
+    height: 35vh;
+    width: 40%;
+    margin: 19px 0 0 0;
+}
+
+.eventInner #i1{
+    background-image: url("https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=400");
+    background-position: center;
+    background-size: cover;
+}
+
+.eventInner #i2{
+    background-image: url("https://images.pexels.com/photos/10295770/pexels-photo-10295770.jpeg?auto=compress&cs=tinysrgb&w=400");
+    background-position: center;
+    background-size: cover;
+}
+
+.eventInner .cont h2{
+    margin: 60px 0 0 100px;
+    font-size: 40px;
+}
+
+.eventInner .cont p{
+    margin: 10px 0 0 100px;
+}
+
+/* pagenotfound */
+
+.errorPage{
+    /* background-color: #391049; */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* justify-content: space-around; */
+}
+
+.errorPage h1{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.errorPage .pageErrorImg{
+    background-image: url("https://img.freepik.com/premium-vector/illustrations-frustrated-expression-woman-oops-404-error-design-concept-landing-page_576269-378.jpg");
+    width: 600px;
+    height: 700px;
+    margin-left: 250px;
+    background-size: cover;
+}
+
